@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    android:id="@+id/grid_task"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycler_item_background"
+    android:padding="16dp"
+    app:alignmentMode="alignBounds"
+    app:columnCount="2"
+    app:rowCount="4">
+
+    <TextView
+        android:id="@+id/text_vin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorTitle"
+        android:textSize="15sp"
+        app:layout_columnSpan="1"
+        app:layout_columnWeight="1"/>
+
+    <TextView
+        android:id="@+id/text_end_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        />
+
+    <TextView
+        android:id="@+id/text_brand"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        />
+
+    <TextView
+        android:id="@+id/text_model"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/text_driver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/text_model_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"/>
+
+
+</android.support.v7.widget.GridLayout>

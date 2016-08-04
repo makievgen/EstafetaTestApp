@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Type of task"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:text="After Unloading / After Uploading Survey"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Planned start time"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_planned_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Survey date"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_planned_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="VIN"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_vin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Brand"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Model"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Model code"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_model_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Driver"
+            android:textColor="@color/colorSimpleText"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_driver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
